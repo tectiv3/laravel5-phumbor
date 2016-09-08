@@ -20,7 +20,7 @@ class PhumborServiceProvider extends ServiceProvider {
 	 */
 	public function boot() {
 		$this->publishes([
-			__DIR__.'/../../config/config.php' => config_path('phumbor.php'),
+			__DIR__.'/config/config.php' => config_path('phumbor.php'),
 		]);
 	}
 
