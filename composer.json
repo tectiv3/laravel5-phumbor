@@ -16,8 +16,8 @@
         "99designs/phumbor": "~1.2"
     },
     "autoload": {
-        "psr-0": {
-            "tectiv3\\Phumbor": "src/"
+        "psr-4": {
+            "tectiv3\\Phumbor\\": "src/"
         }
     }
 }
